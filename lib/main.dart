@@ -24,10 +24,6 @@ class MyApp extends StatelessWidget {
         )
         ),
       home: Menu(),
-      //routes: {
-       // '/': (context) => Menu(),
-      //},
-      // initialRoute: '/',
     );
   }
 }

@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:ecokem/pages/categories.dart';
 import 'package:ecokem/pages/loalty.dart';
+import 'package:ecokem/pages/profile.dart';
+
+import 'profile.dart';
 
 class Menu extends StatefulWidget {
   const Menu({Key? key}) : super(key: key);
@@ -19,9 +22,7 @@ static const List<Widget> _widgetOptions = <Widget>[
     'Карта'
   ),
   loalty(),
-  Text(
-      'Профиль'
-  ),
+  profile(),
 ];
 
 void onSelectedTab(int index){
@@ -32,9 +33,12 @@ setState(() {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('EcoKem', style: TextStyle(color: Colors.black, fontSize: 50, ), ),
-        centerTitle: true,
-        toolbarHeight: 85,
+      appBar: AppBar(
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(image: AssetImage('images/shapka.jpg')),
+          ),
+        ),
       ),
       body: Center(
         child: _widgetOptions[_selectedTab],

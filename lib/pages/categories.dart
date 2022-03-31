@@ -10,11 +10,11 @@ class Categories extends StatefulWidget {
 class _CategoriesState extends State<Categories> {
   @override
   Widget build(BuildContext context) {
-    final textStyle = const TextStyle(color: Colors.black, fontSize: 16);
+    final textStyle = const TextStyle(color: Colors.black, fontSize: 16, fontFamily: 'DejaVu Sans Mono');
     return Scaffold(
     body:
     Padding(
-    padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
+    padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
     child: ListView(
     children: [
     Text('Переработка и утилизация отходов', style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold,), ),
