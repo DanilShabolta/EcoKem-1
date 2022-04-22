@@ -62,6 +62,7 @@ flutter:
    - images/venki.png
    - images/gachi.gif
    - images/shapka.jpg
+   - images/shapka.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

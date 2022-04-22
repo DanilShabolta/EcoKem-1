@@ -33,13 +33,6 @@ setState(() {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        flexibleSpace: Container(
-          decoration: BoxDecoration(
-            image: DecorationImage(image: AssetImage('images/shapka.jpg')),
-          ),
-        ),
-      ),
       body: Center(
         child: _widgetOptions[_selectedTab],
       ),

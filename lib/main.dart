@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.white,
         ),
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
-          backgroundColor: Colors.blue[300],
           selectedItemColor: Colors.green,
           unselectedItemColor: Colors.grey[400],
         )
