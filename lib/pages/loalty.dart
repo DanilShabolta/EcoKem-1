@@ -20,7 +20,7 @@ class _loaltyState extends State<loalty> {
             Text('Участвуй в\nпрограмме\nлояльности', style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold,), ),
             SizedBox(height: 30),
             TextButton(onPressed: () {}, child: Row(children: [Icon(Icons.battery_charging_full, size: 35, color: Colors.green,),
-            Text('Выполняй простые полезные \nдействия и получай за это \nбаллы лояльности', style: textStyle,)],)),
+              Text('Выполняй простые полезные \nдействия и получай за это \nбаллы лояльности', style: textStyle,)],)),
             SizedBox(height: 15),
             TextButton(onPressed: () {}, child: Row(children: [Icon(Icons.battery_charging_full, size: 35, color: Colors.green,),
               Text('Обменивай баллы на \nпартнёрские призы и баллы \nлояльности других брендов', style: textStyle,)],)),
@@ -29,16 +29,16 @@ class _loaltyState extends State<loalty> {
               Text('Сделай добрые дела своей \nпривычкой и получай за это \nбонусы, скидки и подарки', style: textStyle,)],)),
             SizedBox(height: 50),
             TextButton(onPressed: () {}, child: Text('Регистрация', style: textStyle),
-              style: ButtonStyle(
-                  padding: MaterialStateProperty.all<EdgeInsets>(EdgeInsets.all(15)),
-                  foregroundColor: MaterialStateProperty.all<Color>(Colors.green),
-                  backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
-                  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                      RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(18.0),
-                          side: BorderSide(color: Colors.green)
-                      )
-                  ))),
+                style: ButtonStyle(
+                    padding: MaterialStateProperty.all<EdgeInsets>(EdgeInsets.all(15)),
+                    foregroundColor: MaterialStateProperty.all<Color>(Colors.green),
+                    backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
+                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(18.0),
+                            side: BorderSide(color: Colors.green)
+                        )
+                    ))),
           ],
         ),
       ),

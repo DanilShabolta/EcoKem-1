@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ecokem/pages/categories.dart';
 import 'package:ecokem/pages/loalty.dart';
 import 'package:ecokem/pages/profile.dart';
-
-import 'profile.dart';
+import 'package:ecokem/pages/map.dart';
 
 class Menu extends StatefulWidget {
   const Menu({Key? key}) : super(key: key);
@@ -18,9 +17,7 @@ class _MenuState extends State<Menu> {
 int _selectedTab = 0;
 static const List<Widget> _widgetOptions = <Widget>[
   Categories(),
-  Text(
-    'Карта'
-  ),
+  TrashMap(),
   loalty(),
   profile(),
 ];
