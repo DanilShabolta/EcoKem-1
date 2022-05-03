@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
+
 
 class Categories extends StatefulWidget {
   const Categories({Key? key}) : super(key: key);
@@ -26,7 +28,9 @@ class _CategoriesState extends State<Categories> {
     child: ListView(
     children: [
      Text('Переработка и утилизация отходов', style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold,), ),
-    TextButton(onPressed: () {}, child: Row(children: [const Icon(Icons.battery_charging_full, size: 35, color: Colors.green,), Text('  Сдать батарейки', style: textStyle,)],)),
+    TextButton(onPressed: () {
+      launchUrl (Uri(scheme: 'https', host: 'www.google.com', path: 'maps/d/u/0/viewer?mid=15_DC0384rwdXXW0KQrvjTpOXyrLHBt4p&ll=55.31893501282609%2C86.08434246658257&z=11'));
+    }, child: Row(children: [const Icon(Icons.battery_charging_full, size: 35, color: Colors.green,), Text('  Сдать батарейки', style: textStyle,)],)),
        SizedBox(height: 7,),
     TextButton(onPressed: () {}, child: Row(children: [const Icon(Icons.thermostat, size: 35, color: Colors.green), Text('  Сдать градусники', style: textStyle,),],)),
        SizedBox(height: 7,),
