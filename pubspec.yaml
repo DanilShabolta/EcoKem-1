@@ -70,6 +70,10 @@ flutter:
    - images/shapka.png
    - images/gachi.gif
    - images/billy-gachi.gif
+   - images/photos/Test1.jpg
+   - images/photos/Test2.jpg
+   - lib/pages/markers/markers.json
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

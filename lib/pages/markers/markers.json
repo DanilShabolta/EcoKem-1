@@ -1,0 +1,18 @@
+{
+  "coords": [
+{
+  "ID": "1",
+  "longitude": "86.18432",
+  "latitude": "55.33623",
+  "comment": "Пласт. бутылки",
+  "photo": "images/photos/Test1.jpg"
+},
+{
+  "ID": "2",
+  "longitude": "86.18381",
+  "latitude": "55.33675",
+  "comment": "Пласт. бутылки",
+  "photo": "images/photos/Test2.jpg"
+}
+]
+}
